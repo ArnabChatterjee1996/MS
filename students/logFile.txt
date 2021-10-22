@@ -1,0 +1,460 @@
+2021-10-21 12:49:22,657 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 12:49:53,387", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+2021-10-21 12:49:54,322 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:50:54,711 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:51:12,486", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+2021-10-21 15:51:13,059 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:51:24,588", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+2021-10-21 15:51:25,120 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:51:44,855", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+2021-10-21 15:51:45,342 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:55:41,211", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\admin.py changed, reloading."}
+2021-10-21 15:55:41,926 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:55:52,213 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:55:59,937 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:56:04,416 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:56:09,491 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:56:48,429", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '19-07-1996'}"}
+{"time": "2021-10-21 15:56:48,435", "level": "ERROR", "message": "Serializer errors : {'dob': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}"}
+{"time": "2021-10-21 15:56:48,438", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 15:57:04,191", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-1996'}"}
+{"time": "2021-10-21 15:57:04,191", "level": "ERROR", "message": "Serializer errors : {'dob': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}"}
+{"time": "2021-10-21 15:57:04,191", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 15:57:12,649", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 15:57:12,649", "level": "INFO", "message": "Starting db transaction for method add_student . Data : OrderedDict([('name', 'Arnab'), ('email', 'arnab@gmail.com'), ('dob', datetime.date(1996, 7, 19))])"}
+{"time": "2021-10-21 15:57:12,672", "level": "INFO", "message": "Exiting db transaction for method add_student. Data : {'id': 1, 'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 15:57:12,672", "level": "INFO", "message": "Exiting method add_student with response data : {'id': 1, 'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 15:57:26,224", "level": "WARNING", "message": "Not Found: /favicon.ico"}
+{"time": "2021-10-21 15:58:20,430", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+2021-10-21 15:58:20,999 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:58:30,491", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+2021-10-21 15:58:31,087 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:58:49,850", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+2021-10-21 15:58:50,410 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:58:57,626 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+2021-10-21 15:59:01,533 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 15:59:05,217", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 15:59:05,238", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 15:59:05,238", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 16:16:17,702", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 16:16:17,752", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 16:16:17,769", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 16:39:46,451", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 16:39:46,521", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 16:39:46,521", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 17:03:01,999", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+2021-10-21 17:03:03,369 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 5 - Creating handler
+{"time": "2021-10-21 17:03:46,646", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 17:03:46,658", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 17:03:46,658", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 17:05:21,215", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+2021-10-21 17:05:21,955 - INFO - File_Name- logging.py - Function_Name- <module> - Line_No- 6 - Creating handler
+{"time": "2021-10-21 17:07:16,266", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+{"time": "2021-10-21 17:07:22,536", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+{"time": "2021-10-21 17:07:26,384", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 17:07:26,387", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 17:07:26,387", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 17:07:58,507", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+{"time": "2021-10-21 17:08:01,986", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 17:08:01,986", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='student with this email already exists.', code='unique')]}"}
+{"time": "2021-10-21 17:08:01,986", "level": "WARNING", "message": "Bad Request: /student-apis/student/add/"}
+{"time": "2021-10-21 17:08:14,274", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+{"time": "2021-10-21 17:09:21,179", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:19:50,485", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\serializers.py changed, reloading."}
+{"time": "2021-10-21 17:19:59,367", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:20:31,771", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:20:31,771", "level": "ERROR", "message": "id and email are both null for request . Params : <QueryDict: {}>"}
+{"time": "2021-10-21 17:20:31,771", "level": "WARNING", "message": "Bad Request: /student-apis/student/get/"}
+{"time": "2021-10-21 17:20:53,873", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:20:53,873", "level": "INFO", "message": "Entering db for method get_student with id : None and email : arnab@gmail.com"}
+{"time": "2021-10-21 17:21:27,269", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:21:27,269", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : arnab@gmail.com"}
+{"time": "2021-10-21 17:21:30,582", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:21:30,582", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:21:32,842", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:21:32,842", "level": "ERROR", "message": "id and email are both null for request . Params : <QueryDict: {}>"}
+{"time": "2021-10-21 17:21:32,842", "level": "WARNING", "message": "Bad Request: /student-apis/student/get/"}
+{"time": "2021-10-21 17:21:57,194", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:21:57,194", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:24:24,787", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Pratyusha', 'email': 'pratyusha@gmail.com', 'dob': '1996-10-15'}"}
+{"time": "2021-10-21 17:24:24,787", "level": "INFO", "message": "Starting db transaction for method add_student . Data : OrderedDict([('name', 'Pratyusha'), ('email', 'pratyusha@gmail.com'), ('dob', datetime.date(1996, 10, 15))])"}
+{"time": "2021-10-21 17:24:24,800", "level": "INFO", "message": "Exiting db transaction for method add_student. Data : {'id': 2, 'name': 'Pratyusha', 'email': 'pratyusha@gmail.com', 'dob': '1996-10-15'}"}
+{"time": "2021-10-21 17:24:24,800", "level": "INFO", "message": "Exiting method add_student with response data : {'id': 2, 'name': 'Pratyusha', 'email': 'pratyusha@gmail.com', 'dob': '1996-10-15'}"}
+{"time": "2021-10-21 17:24:29,940", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:24:29,940", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:24:38,273", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:24:38,273", "level": "INFO", "message": "Entering db for method get_student with id : None and email : pratyusha@gmail.com"}
+{"time": "2021-10-21 17:32:07,212", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 17:32:29,588", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:34:05,516", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:34:05,516", "level": "INFO", "message": "Entering db for method update_student with id : None and email : pratyusha@gmail.com"}
+{"time": "2021-10-21 17:34:05,523", "level": "INFO", "message": "Exiting db for method update_student with id : None and email : pratyusha@gmail.com with data : Pratyusha (2)"}
+{"time": "2021-10-21 17:34:05,523", "level": "ERROR", "message": "Serializer errors : {'email': [ErrorDetail(string='This field is required.', code='required')], 'dob': [ErrorDetail(string='This field is required.', code='required')]}"}
+{"time": "2021-10-21 17:34:05,523", "level": "WARNING", "message": "Bad Request: /student-apis/student/update/"}
+{"time": "2021-10-21 17:34:48,183", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:34:48,183", "level": "INFO", "message": "Entering db for method update_student with id : None and email : pratyusha@gmail.com"}
+{"time": "2021-10-21 17:34:48,183", "level": "INFO", "message": "Exiting db for method update_student with id : None and email : pratyusha@gmail.com with data : Pratyusha (2)"}
+{"time": "2021-10-21 17:34:48,183", "level": "ERROR", "message": "Some error occurred in method : update_student. Exception : JSON parse error - Extra data: line 6 column 1 (char 98) "}
+{"time": "2021-10-21 17:34:48,183", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/update/"}
+{"time": "2021-10-21 17:34:54,866", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:34:54,866", "level": "INFO", "message": "Entering db for method update_student with id : None and email : pratyusha@gmail.com"}
+{"time": "2021-10-21 17:34:54,874", "level": "INFO", "message": "Exiting db for method update_student with id : None and email : pratyusha@gmail.com with data : Pratyusha (2)"}
+{"time": "2021-10-21 17:35:09,850", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:35:09,850", "level": "INFO", "message": "Entering db for method update_student with id : 2 and email : None"}
+{"time": "2021-10-21 17:35:09,858", "level": "INFO", "message": "Exiting db for method update_student with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 17:36:29,269", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:36:29,269", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:36:29,269", "level": "INFO", "message": "Exiting db for method get_student with id : 1 and email : None with data : Arnab (1)"}
+{"time": "2021-10-21 17:36:51,082", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:36:51,082", "level": "INFO", "message": "Entering db for method update_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:36:51,090", "level": "INFO", "message": "Exiting db for method update_student with id : 1 and email : None with data : Arnab (1)"}
+{"time": "2021-10-21 17:37:37,208", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 17:41:20,578", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:46:59,448", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:48:06,407", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:48:18,010", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:48:36,773", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:48:47,279", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:49:41,751", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:50:13,074", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:51:15,135", "level": "WARNING", "message": "Method Not Allowed: /student-apis/student/delete/"}
+{"time": "2021-10-21 17:51:23,518", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:51:28,258", "level": "INFO", "message": "Entering method delete_student"}
+{"time": "2021-10-21 17:51:28,258", "level": "INFO", "message": "Entering db for method delete_student with id : 3 and email : something"}
+{"time": "2021-10-21 17:51:28,258", "level": "INFO", "message": "Entering db for method delete_student with id : 3 and email : something"}
+{"time": "2021-10-21 17:51:28,274", "level": "WARNING", "message": "Not Found: /student-apis/student/delete/"}
+{"time": "2021-10-21 17:51:41,216", "level": "INFO", "message": "Entering method delete_student"}
+{"time": "2021-10-21 17:51:41,216", "level": "INFO", "message": "Entering db for method delete_student with id : None and email : something"}
+{"time": "2021-10-21 17:51:41,265", "level": "WARNING", "message": "Not Found: /student-apis/student/delete/"}
+{"time": "2021-10-21 17:52:00,868", "level": "INFO", "message": "Entering method delete_student"}
+{"time": "2021-10-21 17:52:00,868", "level": "INFO", "message": "Entering db for method delete_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:00,868", "level": "INFO", "message": "Entering db for method delete_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:00,868", "level": "INFO", "message": "Exiting db for method delete_student with id : 1 and email : None with data : Arnab Chatterjee (1)"}
+{"time": "2021-10-21 17:52:04,685", "level": "INFO", "message": "Entering method get_student"}
+{"time": "2021-10-21 17:52:04,685", "level": "INFO", "message": "Entering db for method get_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:04,700", "level": "WARNING", "message": "Not Found: /student-apis/student/get/"}
+{"time": "2021-10-21 17:52:39,499", "level": "INFO", "message": "Entering method add_student with request data : {'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 17:52:39,507", "level": "INFO", "message": "Starting db transaction for method add_student . Data : OrderedDict([('name', 'Arnab'), ('email', 'arnab@gmail.com'), ('dob', datetime.date(1996, 7, 19))])"}
+{"time": "2021-10-21 17:52:39,517", "level": "INFO", "message": "Exiting db transaction for method add_student. Data : {'id': 3, 'name': 'Arnab', 'email': 'arnab@gmail.com', 'dob': '1996-07-19'}"}
+{"time": "2021-10-21 17:52:44,768", "level": "INFO", "message": "Entering method delete_student"}
+{"time": "2021-10-21 17:52:44,768", "level": "INFO", "message": "Entering db for method delete_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:44,768", "level": "INFO", "message": "Entering db for method delete_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:44,779", "level": "WARNING", "message": "Not Found: /student-apis/student/delete/"}
+{"time": "2021-10-21 17:52:49,653", "level": "INFO", "message": "Entering method update_student"}
+{"time": "2021-10-21 17:52:49,653", "level": "INFO", "message": "Entering db for method update_student with id : 1 and email : None"}
+{"time": "2021-10-21 17:52:49,661", "level": "WARNING", "message": "Not Found: /student-apis/student/update/"}
+{"time": "2021-10-21 17:53:35,971", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 17:57:57,663", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 17:58:10,434", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 17:58:45,015", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\serializers.py changed, reloading."}
+{"time": "2021-10-21 17:59:19,447", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\serializers.py changed, reloading."}
+{"time": "2021-10-21 18:18:20,261", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 18:18:44,532", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:19:53,233", "level": "WARNING", "message": "Method Not Allowed: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:20:02,628", "level": "INFO", "message": "Entering method add_student_to_subject with request data : {}"}
+{"time": "2021-10-21 18:20:02,628", "level": "ERROR", "message": "student_id and student_email are both null for request {}. params : <QueryDict: {}>"}
+{"time": "2021-10-21 18:20:02,628", "level": "WARNING", "message": "Bad Request: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:20:47,318", "level": "INFO", "message": "Entering method add_student_to_subject with request data : {}"}
+{"time": "2021-10-21 18:20:47,318", "level": "ERROR", "message": "student_id and student_email are both null for request {}. params : <QueryDict: {'student_id': ['1']}>"}
+{"time": "2021-10-21 18:20:47,318", "level": "WARNING", "message": "Bad Request: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:21:29,835", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['1']}>"}
+{"time": "2021-10-21 18:21:29,835", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 1 and email : None"}
+{"time": "2021-10-21 18:21:29,845", "level": "WARNING", "message": "Not Found: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['2']}>"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 2 and email : None"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 9999"}
+{"time": "2021-10-21 18:21:34,723", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:21:34,731", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 2 and subject : 9999"}
+{"time": "2021-10-21 18:21:34,758", "level": "ERROR", "message": "Some error occurred in method : add_student_to_subject. Exception : NOT NULL constraint failed: student_student_subjects.modified_on "}
+{"time": "2021-10-21 18:21:34,758", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:22:48,691", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+{"time": "2021-10-21 18:23:00,897", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['2']}>"}
+{"time": "2021-10-21 18:23:00,897", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 2 and email : None"}
+{"time": "2021-10-21 18:23:00,915", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:23:00,915", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:23:00,915", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:23:00,915", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 9999"}
+{"time": "2021-10-21 18:23:00,915", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:23:00,917", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 2 and subject : 9999"}
+{"time": "2021-10-21 18:23:00,931", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 2 and subject : 9999 . Response : {'student': 2, 'subject': 9999}"}
+{"time": "2021-10-21 18:23:28,026", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\serializers.py changed, reloading."}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['2']}>"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 2 and email : None"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 9999"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:23:37,724", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 2 and subject : 9999"}
+{"time": "2021-10-21 18:23:37,739", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 2 and subject : 9999 . Response : {'id': 2, 'subject': 9999, 'created_on': '2021-10-21T18:23:37.724328Z', 'modified_on': None, 'student': 2}"}
+{"time": "2021-10-21 18:24:32,598", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+{"time": "2021-10-21 18:24:41,080", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+{"time": "2021-10-21 18:25:08,475", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\admin.py changed, reloading."}
+{"time": "2021-10-21 18:25:34,758", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['2']}>"}
+{"time": "2021-10-21 18:25:34,758", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 2 and email : None"}
+{"time": "2021-10-21 18:25:34,771", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:25:34,771", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:25:34,771", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:25:34,771", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 9999"}
+{"time": "2021-10-21 18:25:34,771", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:25:34,778", "level": "ERROR", "message": "Serializer errors : {'non_field_errors': [ErrorDetail(string='The fields student, subject must make a unique set.', code='unique')]}"}
+{"time": "2021-10-21 18:25:34,778", "level": "WARNING", "message": "Bad Request: /student-apis/student/subject/add/"}
+{"time": "2021-10-21 18:26:16,856", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+{"time": "2021-10-21 18:26:27,829", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['3']}>"}
+{"time": "2021-10-21 18:26:27,829", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 3 and email : None"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 9999"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:26:27,837", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 3 and subject : 9999"}
+{"time": "2021-10-21 18:26:27,856", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 3 and subject : 9999 . Response : {'id': 3, 'subject': 9999, 'created_on': '2021-10-21T18:26:27.837885Z', 'modified_on': None, 'student': 3}"}
+{"time": "2021-10-21 18:28:38,235", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['3'], 'subject_id': ['23']}>"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 3 and email : None"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 23"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 23 . Response subject details : 23"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:28:59,078", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 3 and subject : 23"}
+{"time": "2021-10-21 18:28:59,094", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 3 and subject : 23 . Response : {'id': 4, 'subject': 23, 'created_on': '2021-10-21T18:28:59.078242Z', 'modified_on': None, 'student': 3}"}
+{"time": "2021-10-21 18:29:03,251", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['3']}>"}
+{"time": "2021-10-21 18:29:03,251", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 3 and email : None"}
+{"time": "2021-10-21 18:29:03,258", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:29:03,258", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:29:03,258", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None"}
+{"time": "2021-10-21 18:29:03,258", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 637"}
+{"time": "2021-10-21 18:29:03,258", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:29:03,266", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 3 and subject : 637"}
+{"time": "2021-10-21 18:29:03,274", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 3 and subject : 637 . Response : {'id': 5, 'subject': 637, 'created_on': '2021-10-21T18:29:03.266053Z', 'modified_on': None, 'student': 3}"}
+{"time": "2021-10-21 18:30:05,853", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:30:22,743", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 18:35:33,675", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:36:01,054", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:36:28,163", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:36:36,475", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 18:37:09,042", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:37:22,751", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:38:03,855", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:38:03,855", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 1 and email : None"}
+{"time": "2021-10-21 18:38:03,863", "level": "WARNING", "message": "Not Found: /student-apis/student/subject/remove/"}
+{"time": "2021-10-21 18:38:08,337", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:38:08,337", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 1"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 1 . Response subject details : 1"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:38:08,340", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:38:08,340", "level": "WARNING", "message": "Not Found: /student-apis/student/subject/remove/"}
+{"time": "2021-10-21 18:38:57,233", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading."}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 9999"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 9999 . Response subject details : 9999"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:39:17,372", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:39:17,385", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:39:17,571", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/remove/"}
+Traceback (most recent call last):
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Work\Freelance\Ongoing\Misc\venv\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+{"time": "2021-10-21 18:40:41,597", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 2 and email : None with data : Pratyusha BVS (2)"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Student id : 2"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 9999"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 9999 . Response subject details : 9999"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:40:45,348", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 2 and email : None"}
+{"time": "2021-10-21 18:40:45,353", "level": "WARNING", "message": "Not Found: /student-apis/student/subject/remove/"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 9999"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 9999 . Response subject details : 9999"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:40:55,879", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:40:55,893", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:40:59,109", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:40:59,109", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 9999"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 9999 . Response subject details : 9999"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:40:59,126", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:40:59,134", "level": "WARNING", "message": "Not Found: /student-apis/student/subject/remove/"}
+{"time": "2021-10-21 18:45:16,504", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 18:45:16,504", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : 23"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : 23 . Response subject details : 23"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Subject id : 9999"}
+{"time": "2021-10-21 18:45:16,512", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 18:45:16,527", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:04:00,491", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 19:07:11,331", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:07:28,430", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:23:59,032", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:26:29,077", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:26:44,939", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:41:26,095", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 19:42:22,229", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:42:38,049", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 19:42:38,049", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:42:38,057", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 19:42:38,057", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 19:42:38,057", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:42:38,062", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' "}
+{"time": "2021-10-21 19:42:38,062", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/"}
+{"time": "2021-10-21 19:43:22,067", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 19:43:22,067", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:43:22,067", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 19:43:22,067", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 19:43:22,067", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:43:22,067", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' "}
+{"time": "2021-10-21 19:43:22,067", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/"}
+{"time": "2021-10-21 19:43:40,303", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 19:43:40,305", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:43:40,307", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 19:43:40,307", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 19:43:40,307", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:43:40,307", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' "}
+{"time": "2021-10-21 19:43:40,307", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/"}
+{"time": "2021-10-21 19:44:54,839", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\urls.py changed, reloading."}
+{"time": "2021-10-21 19:45:56,252", "level": "INFO", "message": "Entering method remove_subject_from_student with request data : {}"}
+{"time": "2021-10-21 19:45:56,252", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:45:56,260", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 19:45:56,260", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 19:45:56,260", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:45:56,260", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' "}
+{"time": "2021-10-21 19:45:56,260", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/"}
+{"time": "2021-10-21 19:51:44,331", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading."}
+{"time": "2021-10-21 19:51:47,777", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>"}
+{"time": "2021-10-21 19:51:47,777", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:51:47,779", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)"}
+{"time": "2021-10-21 19:51:47,779", "level": "INFO", "message": "Student id : 3"}
+{"time": "2021-10-21 19:51:47,779", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None"}
+{"time": "2021-10-21 19:51:47,780", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' "}
+{"time": "2021-10-21 19:51:47,780", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/"}
+{"time": "2021-10-21 19:53:38,865", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\students\logging.py changed, reloading."}
+{"time": "2021-10-21 19:53:49,592", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,592", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,596", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,596", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,596", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,598", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:53:49,599", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 19:57:28,497", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 19:57:33,812", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,813", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,815", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,815", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,815", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,816", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"504", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:57:33,817", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 19:58:13,745", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 19:59:26,371", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 19:59:31,154", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,155", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,158", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,158", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,158", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,161", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 19:59:31,162", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:00:21,363", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:00:26,649", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "INFO", "message": "Entering db for method remove_subject_from_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "INFO", "message": "Exiting db for method remove_subject_from_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:00:26,649", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:02:23,260", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:02:41,619", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,620", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,624", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,624", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,624", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,626", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:02:41,627", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:06:19,733", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:06:34,684", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,684", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,686", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,686", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,686", "level": "INFO", "message": "Entering db for student_subject_data for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,686", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:06:34,687", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:08:43,851", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:08:49,006", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,006", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,009", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,009", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,009", "level": "INFO", "message": "Entering db for student_subject_data for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,012", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:08:49,012", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:10:26,547", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:10:30,364", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "INFO", "message": "Entering db for student_subject_data for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "ERROR", "message": "Some error occurred in method : get_subject_for_student. Exception : 'Student_Subjects' object has no attribute 'name' ", "Line_No":"505", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:10:30,364", "level": "ERROR", "message": "Internal Server Error: /student-apis/student/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-21 20:11:35,589", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\models.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:11:43,751", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\students\student\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Entering db for student_subject_data for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Exiting db for student_subject_data for method get_subject_for_student with id : 3 and email : None . Data : <QuerySet [Arnab (3)->637 (5)]>", "Line_No":"479", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Arnab (3)", "Line_No":"485", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Entering Subject service for subject id : 637", "Line_No":"490", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Exiting Subject service for subject id : 637 . Response subject details : {'subject_id': 637, 'subject_data': {}}", "Line_No":"492", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:11:46,482", "level": "INFO", "message": "Subject id : 637", "Line_No":"495", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:12,078", "level": "INFO", "message": "Entering method add_student_to_subject with request data : <QueryDict: {'student_id': ['3']}>", "Line_No":"244", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,078", "level": "INFO", "message": "Entering db for method add_student_to_subject with id : 3 and email : None", "Line_No":"271", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,081", "level": "INFO", "message": "Exiting db for method add_student_to_subject with id : 3 and email : None with data : Arnab (3)", "Line_No":"275", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,081", "level": "INFO", "message": "Student id : 3", "Line_No":"285", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,081", "level": "INFO", "message": "Entering Subject service for subject name : None and subject id : None", "Line_No":"289", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,081", "level": "INFO", "message": "Exiting Subject service for subject name : None and subject id : None . Response subject details : 248", "Line_No":"295", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,081", "level": "INFO", "message": "Subject id : 9999", "Line_No":"298", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,083", "level": "INFO", "message": "Entering db for method add_student_to_subject with student : 3 and subject : 248", "Line_No":"306", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:12,096", "level": "INFO", "message": "Exiting db for method add_student_to_subject with student : 3 and subject : 248 . Response : {'id': 6, 'subject': 248, 'created_on': '2021-10-21T20:13:12.083450Z', 'modified_on': None, 'student': 3}", "Line_No":"311", "Function_Name" : "add_student_to_subject"}
+{"time": "2021-10-21 20:13:17,453", "level": "INFO", "message": "Entering method get_subject_for_student with request params : <QueryDict: {'id': ['3']}>", "Line_No":"431", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,454", "level": "INFO", "message": "Entering db for method get_subject_for_student with id : 3 and email : None", "Line_No":"456", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,469", "level": "INFO", "message": "Exiting db for method get_subject_for_student with id : 3 and email : None with data : Arnab (3)", "Line_No":"460", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,470", "level": "INFO", "message": "Student id : 3", "Line_No":"470", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,470", "level": "INFO", "message": "Entering db for student_subject_data for method get_subject_for_student with id : 3 and email : None", "Line_No":"475", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,474", "level": "INFO", "message": "Exiting db for student_subject_data for method get_subject_for_student with id : 3 and email : None . Data : <QuerySet [Arnab (3)->248 (6), Arnab (3)->637 (5)]>", "Line_No":"479", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,476", "level": "INFO", "message": "Arnab (3)", "Line_No":"485", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,476", "level": "INFO", "message": "Entering Subject service for subject id : 248", "Line_No":"490", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,477", "level": "INFO", "message": "Exiting Subject service for subject id : 248 . Response subject details : {'subject_id': 248, 'subject_data': {}}", "Line_No":"492", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,477", "level": "INFO", "message": "Subject id : 248", "Line_No":"495", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,478", "level": "INFO", "message": "Arnab (3)", "Line_No":"485", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,479", "level": "INFO", "message": "Entering Subject service for subject id : 637", "Line_No":"490", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,479", "level": "INFO", "message": "Exiting Subject service for subject id : 637 . Response subject details : {'subject_id': 637, 'subject_data': {}}", "Line_No":"492", "Function_Name" : "get_subject_for_student"}
+{"time": "2021-10-21 20:13:17,479", "level": "INFO", "message": "Subject id : 637", "Line_No":"495", "Function_Name" : "get_subject_for_student"}
