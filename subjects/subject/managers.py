@@ -41,4 +41,16 @@ class SubjectManager:
             logging.error("Some error occurred in method : get_subject_by_name. Exception : {} ".format(e))
             raise Exception(e)
 
+    @staticmethod
+    def get_all_subjects():
+        try:
+            logging.info("Entering method get_all_subjects")
+            logging.info("Starting db transaction for method get_all_subjects")
+            subjects = Subject.objects.all()
+            logging.info("Exiting db transaction for method get_all_subjects")
+            return (subjects, 'found')
+
+        except Exception as e:
+            logging.error("Some error occurred in method : get_all_subjects. Exception : {} ".format(e))
+            raise Exception(e)
 

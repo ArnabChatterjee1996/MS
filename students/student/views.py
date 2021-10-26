@@ -6,8 +6,10 @@ from rest_framework.response import Response
 from django.core.exceptions import ObjectDoesNotExist
 
 from students.logging import logging
+from .managers import StudentManager
 from .serializers import *
 from .models import Student
+
 
 
 @api_view(['GET'])
@@ -285,33 +287,36 @@ def add_student_to_subject(request):
         logging.info("Student id : {}".format(student))
 
         ## Get the subject details from the Subject Service
-        ## For now keeping the subject id as 9999
         logging.info(
             "Entering Subject service for subject name : {} and subject id : {}".format(subject_name, subject_id))
-        if subject_id is not None:
-            subject = subject_id
-        else:
-            subject = random.randint(1, 1000)
+        subject_details = StudentManager.get_subject(subject_name=subject_name, subject_id=subject_id)[0]
         logging.info(
             "Exiting Subject service for subject name : {} and subject id : {} . Response subject details : {}".format(
-                subject_name, subject_id, subject))
-        logging.info("Subject id : {}".format(9999))
+                subject_name, subject_id, subject_details))
+        if subject_details.status_code != status.HTTP_200_OK:
+            return Response({"status": "Failure",
+                             "message": "There's no subject with the given name/id",
+                             "data": subject_details.json()},
+                            status=subject_details.status_code)
+        subject_details = subject_details.json().get('data')
+        subject_id = subject_details.get('id')
+        logging.info("Subject id : {}".format(subject_id))
 
         ## Add the student subject data to table Student_Subjects
         serialized_data = StudentSubjectsSerializer(data={
             'student': student,
-            'subject': subject
+            'subject': subject_id
         })
         if serialized_data.is_valid():
             logging.info(
                 "Entering db for method add_student_to_subject with student : {} and subject : {}".format(student,
-                                                                                                          subject))
+                                                                                                          subject_id))
             serialized_data.save()
 
             logging.info(
                 "Exiting db for method add_student_to_subject with student : {} and subject : {} . Response : {}".format(
                     student,
-                    subject, serialized_data.data))
+                    subject_id, serialized_data.data))
             return Response({"status": "Success",
                              "message": "Student and subject data added successfully",
                              "data": serialized_data.data},
@@ -382,24 +387,27 @@ def remove_subject_from_student(request):
         logging.info("Student id : {}".format(student))
 
         ## Get the subject details from the Subject Service
-        ## For now keeping the subject id as 9999
         logging.info(
             "Entering Subject service for subject name : {} and subject id : {}".format(subject_name, subject_id))
-        if subject_id is not None:
-            subject = subject_id
-        else:
-            subject = random.randint(1, 1000)
+        subject_details = StudentManager.get_subject(subject_name=subject_name, subject_id=subject_id)[0]
         logging.info(
             "Exiting Subject service for subject name : {} and subject id : {} . Response subject details : {}".format(
-                subject_name, subject_id, subject))
-        logging.info("Subject id : {}".format(9999))
+                subject_name, subject_id, subject_details))
+        if subject_details.status_code != status.HTTP_200_OK:
+            return Response({"status": "Failure",
+                             "message": "There's no subject with the given name/id",
+                             "data": subject_details.json()},
+                            status=subject_details.status_code)
+        subject_details = subject_details.json().get('data')
+        subject_id = subject_details.get('id')
+        logging.info("Subject id : {}".format(subject_id))
 
         ## Remove the student subject data from table Student_Subjects
         try:
             logging.info(
                 "Entering db for method remove_subject_from_student with id : {} and email : {}".format(student_id,
                                                                                                         student_email))
-            student_subject_data = Student_Subjects.objects.get(student=student, subject=subject)
+            student_subject_data = Student_Subjects.objects.get(student=student, subject=subject_id)
             student_subject_data.delete()
             logging.info(
                 "Exiting db for method remove_subject_from_student with id : {} and email : {}".format(student_id,
@@ -487,20 +495,34 @@ def get_subject_for_student(request):
                 response_dict['student'] = student_details.data
                 subject_id = student_subject.subject
                 ## Get the subject details from the Subject Service
-                logging.info("Entering Subject service for subject id : {}".format(subject_id))
-                subject = {"subject_id": subject_id, "subject_data": {}}
                 logging.info(
-                    "Exiting Subject service for subject id : {} . Response subject details : {}".format(subject_id,
-                                                                                                         subject))
+                    "Entering Subject service for subject id : {}".format(subject_id))
+                subject_details = StudentManager.get_subject(subject_name=None, subject_id=subject_id)[0]
+                logging.info(
+                    "Exiting Subject service for subject id : {} . Response subject details : {}".format(
+                        subject_id, subject_details))
+                if subject_details.status_code == status.HTTP_200_OK:
+
+                    subject_details = subject_details.json().get('data')
+                    subject_id = subject_details.get('id')
+                    logging.info("Subject id : {}".format(subject_id))
+
+                    subject = {"subject_id": subject_id, "subject_data": subject_details}
+                else:
+                    logging.info("There's no subject with id : {}".format(subject_id))
+                    subject = {"subject_id": subject_id, "subject_data": {}}
+                logging.info(
+                        "Exiting Subject service for subject id : {} . Response subject details : {}".format(subject_id,
+                                                                                                             subject))
                 logging.info("Subject id : {}".format(subject_id))
 
                 response_dict['subject_details'] = subject
                 response.append(response_dict)
 
             return Response({"status": "Success",
-                             "message": "Got details for all subjects for student",
-                             "data": response},
-                            status=status.HTTP_200_OK)
+                                 "message": "Got details for all subjects for student",
+                                 "data": response},
+                                status=status.HTTP_200_OK)
         except Exception as e:
             logging.error("Some error occurred in method : get_subject_for_student. Exception : {} ".format(e))
             return Response({"status": "Failure",
