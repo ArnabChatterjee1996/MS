@@ -121,6 +121,23 @@ def get_subject(request):
                          "data": "Some exception occurred while getting the data . Exception : {}".format(e)},
                         status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+@api_view(['GET'])
+def get_all_subjects(request):
+    try:
+        logging.info("Entering method get_all_subjects")
+        subjects = SubjectManager.get_all_subjects()
+        serialized_data = SubjectSerializer(subjects[0],many=True)
+        return Response({"status": "Success",
+                         "message": "Subjects data retrieved successfully",
+                         "data": serialized_data.data},
+                        status=status.HTTP_200_OK)
+    except Exception as e:
+        logging.error("Some error occurred in method : get_all_subjects. Exception : {} ".format(e))
+        return Response({"status": "Failure",
+                         "message": "Some error occurred while retrieving the data",
+                         "data": "Some exception occurred while getting the data . Exception : {}".format(e)},
+                        status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 @api_view(['PUT'])
 def update_subject(request):

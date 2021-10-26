@@ -121,3 +121,24 @@
 {"time": "2021-10-26 13:05:09,220", "level": "INFO", "message": "Entering method add_subject with request data : {'name': 'Test Book 1', 'book_url': 'https://developer.mozilla.org'}", "Line_No":"22", "Function_Name" : "add_subject"}
 {"time": "2021-10-26 13:05:09,253", "level": "INFO", "message": "Starting db transaction for method add_subject . Data : OrderedDict([('name', 'Test Book 1'), ('book_url', 'https://developer.mozilla.org')])", "Line_No":"25", "Function_Name" : "add_subject"}
 {"time": "2021-10-26 13:05:09,268", "level": "INFO", "message": "Exiting db transaction for method add_subject. Data : {'id': 3, 'name': 'Test Book 1', 'book_url': 'https://developer.mozilla.org', 'students_opted': 0, 'created_on': '2021-10-26T07:35:09.257793Z', 'updated_on': None}", "Line_No":"28", "Function_Name" : "add_subject"}
+{"time": "2021-10-26 16:46:29,589", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"127", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:46:29,589", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"47", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:46:29,589", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"49", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:46:29,589", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:46:29,589", "level": "ERROR", "message": "Some error occurred in method : get_all_subjects. Exception : Got AttributeError when attempting to get a value for field `name` on serializer `SubjectSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'. ", "Line_No":"135", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:46:29,589", "level": "ERROR", "message": "Internal Server Error: /subject-apis/subject/all/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 16:52:15,119", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\managers.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 16:52:34,587", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 16:52:42,620", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"127", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:52:42,620", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"47", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:52:42,620", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"48", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:52:42,620", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"50", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:53:03,229", "level": "INFO", "message": "Entering method add_subject with request data : {'name': 'Test Book 2', 'book_url': 'https://developer.mozilla.org'}", "Line_No":"22", "Function_Name" : "add_subject"}
+{"time": "2021-10-26 16:53:03,269", "level": "INFO", "message": "Starting db transaction for method add_subject . Data : OrderedDict([('name', 'Test Book 2'), ('book_url', 'https://developer.mozilla.org')])", "Line_No":"25", "Function_Name" : "add_subject"}
+{"time": "2021-10-26 16:53:03,277", "level": "INFO", "message": "Exiting db transaction for method add_subject. Data : {'id': 4, 'name': 'Test Book 2', 'book_url': 'https://developer.mozilla.org', 'students_opted': 0, 'created_on': '2021-10-26T11:23:03.269657Z', 'updated_on': None}", "Line_No":"28", "Function_Name" : "add_subject"}
+{"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"127", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"47", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"48", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"50", "Function_Name" : "get_all_subjects"}
