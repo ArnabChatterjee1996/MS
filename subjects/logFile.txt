@@ -142,3 +142,437 @@ Original exception text was: 'QuerySet' object has no attribute 'name'. ", "Line
 {"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"47", "Function_Name" : "get_all_subjects"}
 {"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"48", "Function_Name" : "get_all_subjects"}
 {"time": "2021-10-26 16:53:05,843", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"50", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 16:58:28,468", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 16:58:28,468", "level": "INFO", "message": "Entering Manager class for name : Test Book 1", "Line_No":"63", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 16:58:28,468", "level": "INFO", "message": "Entering method get_subject_by_name for id : Test Book 1", "Line_No":"29", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 16:58:28,468", "level": "INFO", "message": "Starting db transaction for method get_subject_by_name . id : Test Book 1", "Line_No":"31", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 16:58:28,508", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_name. Data . id : Test Book 1", "Line_No":"34", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:01:48,339", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:01:48,339", "level": "INFO", "message": "Entering Manager class for name : Test Book 1", "Line_No":"63", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:01:48,339", "level": "INFO", "message": "Entering method get_subject_by_name for id : Test Book 1", "Line_No":"29", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:01:48,339", "level": "INFO", "message": "Starting db transaction for method get_subject_by_name . id : Test Book 1", "Line_No":"31", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:01:48,357", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_name. Data . id : Test Book 1", "Line_No":"34", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:03:01,537", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:03:01,537", "level": "INFO", "message": "Entering Manager class for name : Test Book 1", "Line_No":"63", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:03:01,537", "level": "INFO", "message": "Entering method get_subject_by_name for id : Test Book 1", "Line_No":"29", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:03:01,538", "level": "INFO", "message": "Starting db transaction for method get_subject_by_name . id : Test Book 1", "Line_No":"31", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:03:01,538", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_name. Data . id : Test Book 1", "Line_No":"34", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:06:55,476", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:06:55,476", "level": "INFO", "message": "Entering Manager class for name : Test Book 1", "Line_No":"63", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:06:55,476", "level": "INFO", "message": "Entering method get_subject_by_name for id : Test Book 1", "Line_No":"29", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:06:55,476", "level": "INFO", "message": "Starting db transaction for method get_subject_by_name . id : Test Book 1", "Line_No":"31", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:06:55,486", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_name. Data . id : Test Book 1", "Line_No":"34", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:18:25,836", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:18:25,836", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:18:25,836", "level": "INFO", "message": "Entering method get_subject_by_id for id : 248", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:18:25,836", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 248", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:18:25,878", "level": "WARNING", "message": "Not Found: /subject-apis/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 17:22:06,391", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:06,391", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:06,391", "level": "INFO", "message": "Entering method get_subject_by_id for id : 248", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:06,391", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 248", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:06,400", "level": "WARNING", "message": "Not Found: /subject-apis/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 17:22:18,942", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:18,942", "level": "INFO", "message": "Entering Manager class for name : Test Book 1", "Line_No":"63", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:18,942", "level": "INFO", "message": "Entering method get_subject_by_name for id : Test Book 1", "Line_No":"29", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:22:18,942", "level": "INFO", "message": "Starting db transaction for method get_subject_by_name . id : Test Book 1", "Line_No":"31", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:22:18,951", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_name. Data . id : Test Book 1", "Line_No":"34", "Function_Name" : "get_subject_by_name"}
+{"time": "2021-10-26 17:22:20,961", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:20,961", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:20,961", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:20,961", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:20,961", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,244", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,244", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,244", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,244", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,252", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,257", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,257", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,257", "level": "INFO", "message": "Entering method get_subject_by_id for id : 248", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,257", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 248", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,257", "level": "WARNING", "message": "Not Found: /subject-apis/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 17:22:52,271", "level": "INFO", "message": "Entering method get_subject", "Line_No":"51", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,271", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"86", "Function_Name" : "get_subject"}
+{"time": "2021-10-26 17:22:52,271", "level": "INFO", "message": "Entering method get_subject_by_id for id : 637", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,271", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 637", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 17:22:52,271", "level": "WARNING", "message": "Not Found: /subject-apis/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 20:19:46,966", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"127", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 20:19:46,966", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"47", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 20:19:46,966", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"48", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 20:19:46,966", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"50", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-26 20:20:11,421", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:20:11,421", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"188", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:20:11,421", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:20:11,421", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:20:11,445", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:20:11,470", "level": "ERROR", "message": "Serializer errors : {'name': [ErrorDetail(string='This field is required.', code='required')], 'book_url': [ErrorDetail(string='This field is required.', code='required')]}", "Line_No":"200", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:20:11,470", "level": "WARNING", "message": "Bad Request: /subject-apis/subject/update/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 20:21:55,759", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:21:58,992", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:21:58,992", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"188", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:21:58,992", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:21:58,992", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:21:58,992", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:36:06,608", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:41:00,813", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\managers.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:42:53,345", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:43:14,514", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:43:36,476", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:43:36,476", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"193", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:43:36,476", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:43:36,476", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:43:36,484", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:43:56,597", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:43:56,597", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"193", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:43:56,597", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:43:56,597", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:43:56,659", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:46:09,512", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:46:09,517", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"193", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:46:09,517", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:46:09,517", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:46:09,553", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:47:04,521", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"194", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:47:10,866", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:49:22,102", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:49:52,133", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:49:52,134", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:49:52,134", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:49:52,134", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:49:52,135", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:49:52,136", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:50:53,266", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:51:01,599", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:01,615", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:01,615", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:01,615", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:01,616", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:01,618", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:01,756", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"231", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:01,756", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"234", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:01,769", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"237", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,051", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,051", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,054", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,054", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:13,054", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:13,070", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:51:13,083", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"240", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,083", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,083", "level": "ERROR", "message": "Some error occurred in method : update_subject. Exception : 'str' object has no attribute 'students_opted' ", "Line_No":"268", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:51:13,084", "level": "ERROR", "message": "Internal Server Error: /subject-apis/subject/update/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-26 20:52:34,754", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:38,230", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:38,296", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"240", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:38,296", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:38,313", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:40,998", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:40,998", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:40,998", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:40,998", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:40,998", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:41,014", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:52:41,041", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"240", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:41,041", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:52:41,047", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:55:13,297", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\models.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:55:42,162", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\models.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:56:10,595", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:10,595", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:10,595", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:10,595", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:10,595", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:10,612", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:10,698", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"240", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:10,699", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:10,699", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,896", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,896", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,896", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,896", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:19,896", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:19,916", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:19,922", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"240", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,922", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:19,933", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,133", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,133", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,133", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,133", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:25,136", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:25,150", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:25,163", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"231", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,163", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"234", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:25,178", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"237", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,035", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,035", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,035", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"221", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,035", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:26,035", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:26,062", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:56:26,083", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"231", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,083", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"234", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:56:26,099", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"237", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:57:33,417", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:57:59,883", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-26 20:58:10,149", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,149", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,149", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"224", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,149", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:58:10,149", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:58:10,157", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:58:10,286", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,286", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,294", "level": "ERROR", "message": "Not decreasing students_opted because students_opted is 0", "Line_No":"251", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,294", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"252", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:58:10,294", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"255", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,340", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,340", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,340", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"224", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,340", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:29,340", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:29,373", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:29,380", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,380", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,380", "level": "ERROR", "message": "Not decreasing students_opted because students_opted is 0", "Line_No":"251", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,380", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"252", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:29,380", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"255", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,096", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,096", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,096", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"224", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,096", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:35,096", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:35,114", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:35,130", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"243", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,131", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"246", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,131", "level": "ERROR", "message": "Not decreasing students_opted because students_opted is 0", "Line_No":"251", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,131", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"252", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:35,131", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"255", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:44,117", "level": "INFO", "message": "Entering method update_subject", "Line_No":"145", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:44,117", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3']}>", "Line_No":"150", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:44,117", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"224", "Function_Name" : "update_subject"}
+{"time": "2021-10-26 20:59:44,117", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"11", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:44,117", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-26 20:59:44,125", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"16", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:10:02,700", "level": "INFO", "message": "C:\Work\Freelance\Ongoing\Misc\MS\subjects\subject\views.py changed, reloading.", "Line_No":"251", "Function_Name" : "trigger_reload"}
+{"time": "2021-10-27 07:25:38,985", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:25:38,993", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:25:38,993", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:25:38,994", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:25:38,994", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:25:39,007", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:27:40,733", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"130", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:27:40,735", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:27:40,735", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"52", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:27:40,735", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"54", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:06,287", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:06,287", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:06,294", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:06,294", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:06,294", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,073", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:37,073", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:37,073", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,073", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,082", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,110", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:37,118", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"247", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,118", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"250", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,118", "level": "ERROR", "message": "Not decreasing students_opted because students_opted is 0", "Line_No":"255", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,126", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"256", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:37,126", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"259", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,565", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:42,565", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:42,572", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,572", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,582", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,622", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,631", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,631", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,631", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,631", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,631", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:42,640", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"238", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,640", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"241", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:42,641", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"244", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:48,019", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"130", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:48,019", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:48,019", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"52", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:48,019", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"54", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:53,014", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:53,014", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:28:53,022", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,022", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,022", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,043", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,043", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,043", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,043", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,043", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,051", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:28:53,051", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"247", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,051", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"250", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,051", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"256", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:53,059", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"259", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:28:56,514", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"130", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:56,514", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:56,514", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"52", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:28:56,514", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"54", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:29:33,884", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:33,885", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:33,885", "level": "INFO", "message": "Entering method get_subject_by_id for id : 34", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:33,885", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 34", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:33,885", "level": "WARNING", "message": "Not Found: /subject-apis/subject/get/", "Line_No":"224", "Function_Name" : "log_response"}
+{"time": "2021-10-27 07:29:41,648", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:41,648", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:41,648", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,648", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,656", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,678", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:41,678", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:41,678", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:41,678", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,678", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,682", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:41,688", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"238", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:41,688", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"241", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:41,689", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"244", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:47,827", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:47,827", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:47,834", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:47,834", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:47,842", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,732", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:51,732", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:51,732", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,732", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,732", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,750", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,750", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,750", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,750", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,758", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,758", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:51,766", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"247", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,766", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"250", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,766", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"256", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:51,766", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"259", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,027", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:56,027", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:29:56,037", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,037", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,045", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,064", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,064", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,064", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,064", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,064", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,068", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:29:56,074", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"238", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,074", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"241", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:29:56,074", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"244", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:35:06,231", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:35:06,231", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:35:06,238", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:35:06,245", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:35:06,245", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:15,071", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:15,071", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:15,071", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:15,071", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:15,081", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,672", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:43,672", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:43,672", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,672", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,672", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,680", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:43,689", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"247", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,689", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"250", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,689", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"256", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:43,689", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"259", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:46,589", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:46,589", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:36:46,603", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,603", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,603", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,618", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:46,618", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inci']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:46,618", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:36:46,623", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,623", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,623", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:36:46,623", "level": "INFO", "message": "Not changing students_opted count for subject : (Test Book 1 updated by name, 'found') . add_student value : inci", "Line_No":"262", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,733", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:24,733", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:24,745", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,745", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,750", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,766", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,767", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['dec']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,767", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,767", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,767", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,771", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:24,777", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"247", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,777", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"250", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,777", "level": "ERROR", "message": "Not decreasing students_opted because students_opted is 0", "Line_No":"255", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,777", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"256", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:24,777", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"259", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:26,964", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:26,964", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:26,977", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:26,977", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:26,982", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:27,002", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:27,002", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['3'], 'add_student': ['inc']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:27,002", "level": "INFO", "message": "Entering Manager class for id : 3", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:27,002", "level": "INFO", "message": "Entering method get_subject_by_id for id : 3", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:27,002", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 3", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:27,005", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 3", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:27,010", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 1 updated by name, 'found')", "Line_No":"238", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:27,010", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"241", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:27,010", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 1 updated by name (3)", "Line_No":"244", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:30,654", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"130", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:30,654", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:30,654", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"52", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:30,662", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"54", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:39,634", "level": "INFO", "message": "Entering method get_subject", "Line_No":"53", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:39,634", "level": "INFO", "message": "Entering Manager class for name : None", "Line_No":"88", "Function_Name" : "get_subject"}
+{"time": "2021-10-27 07:37:39,634", "level": "INFO", "message": "Entering method get_subject_by_id for id : 4", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,634", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 4", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,634", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 4", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,660", "level": "INFO", "message": "Entering method update_subject", "Line_No":"149", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:39,660", "level": "INFO", "message": "add_student param is available for request : <QueryDict: {'id': ['4'], 'add_student': ['inc']}>", "Line_No":"154", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:39,660", "level": "INFO", "message": "Entering Manager class for id : 4", "Line_No":"228", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:39,660", "level": "INFO", "message": "Entering method get_subject_by_id for id : 4", "Line_No":"13", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,660", "level": "INFO", "message": "Starting db transaction for method get_subject_by_id . id : 4", "Line_No":"15", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,668", "level": "INFO", "message": "Exiting db transaction for method get_subject_by_id. Data . id : 4", "Line_No":"18", "Function_Name" : "get_subject_by_id"}
+{"time": "2021-10-27 07:37:39,668", "level": "INFO", "message": "Increasing students_opted count by 1 for subject : (Test Book 2, 'found')", "Line_No":"238", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:39,668", "level": "INFO", "message": "Starting db transaction for method update_subject", "Line_No":"241", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:39,676", "level": "INFO", "message": "Exiting db transaction for method update_subject . Data : Test Book 2 (4)", "Line_No":"244", "Function_Name" : "update_subject"}
+{"time": "2021-10-27 07:37:42,435", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"130", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:42,443", "level": "INFO", "message": "Entering method get_all_subjects", "Line_No":"51", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:42,443", "level": "INFO", "message": "Starting db transaction for method get_all_subjects", "Line_No":"52", "Function_Name" : "get_all_subjects"}
+{"time": "2021-10-27 07:37:42,443", "level": "INFO", "message": "Exiting db transaction for method get_all_subjects", "Line_No":"54", "Function_Name" : "get_all_subjects"}

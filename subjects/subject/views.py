@@ -1,5 +1,6 @@
 import random
 
+from django.db import transaction
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -17,6 +18,7 @@ def server_health(request):
 
 
 @api_view(['POST'])
+@transaction.atomic
 def add_subject(request):
     try:
         logging.info("Entering method add_subject with request data : {}".format(request.data))
@@ -122,6 +124,7 @@ def get_subject(request):
                         status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 @api_view(['GET'])
+@transaction.atomic
 def get_all_subjects(request):
     try:
         logging.info("Entering method get_all_subjects")
@@ -140,11 +143,18 @@ def get_all_subjects(request):
 
 
 @api_view(['PUT'])
+@transaction.atomic
 def update_subject(request):
     try:
         logging.info("Entering method update_subject")
         id = request.GET.get('id')
         name = request.GET.get('name')
+        try:
+            add_student = request.GET.get('add_student')
+            logging.info("add_student param is available for request : {}".format(request.GET))
+        except:
+            logging.error("add_student param is not available for request : {}".format(request.GET))
+            add_student = None
         if id is None:
             if name is None:
                 logging.error("id and name are both null for request . Params : {}".format(request.GET))
@@ -158,9 +168,39 @@ def update_subject(request):
                     subject_details = SubjectManager.get_subject_by_name(name=name)
                     if subject_details[1] == 'found':
                         subject = subject_details[0]
-                        serialized_data = SubjectSerializer(subject, data=request.data)
+                        serialized_data = SubjectSerializer(subject, data=request.data,partial=True)
                         if serialized_data.is_valid():
                             serialized_data.save()
+                            if subject_details[1] == 'found':
+                                if add_student is not None:
+                                    if add_student == 'inc':
+                                        logging.info(
+                                            "Increasing students_opted count by 1 for subject : {}".format(
+                                                subject_details))
+                                        subject = subject_details[0]
+                                        logging.info("Starting db transaction for method update_subject")
+                                        subject.students_opted += 1
+                                        subject.save()
+                                        logging.info(
+                                            "Exiting db transaction for method update_subject . Data : {}".format(
+                                                subject))
+                                    elif add_student == 'dec':
+                                        logging.info(
+                                            "Increasing students_opted count by 1 for subject : {}".format(
+                                                subject_details))
+                                        subject = subject_details[0]
+                                        logging.info("Starting db transaction for method update_subject")
+                                        if subject.students_opted > 0 :
+                                            subject.students_opted -= 1
+                                            subject.save()
+                                        else:
+                                            logging.error("Not decreasing students_opted because students_opted is 0")
+                                        logging.info(
+                                            "Exiting db transaction for method update_subject . Data : {}".format(
+                                                subject))
+                                    else:
+                                        logging.info("Not changing students_opted count for subject : {} . "
+                                                     "add_student value : {}".format(subject_details, add_student))
                             return Response({"status": "Success",
                                              "message": "Subject data updated successfully",
                                              "data": serialized_data.data},
@@ -189,9 +229,38 @@ def update_subject(request):
                 subject_details = SubjectManager.get_subject_by_id(id=id)
                 if subject_details[1] == 'found':
                     subject = subject_details[0]
-                    serialized_data = SubjectSerializer(subject,data=request.data)
+                    serialized_data = SubjectSerializer(subject,data=request.data,partial=True)
                     if serialized_data.is_valid():
                         serialized_data.save()
+                        if subject_details[1] == 'found':
+                            if add_student is not None:
+                                if add_student == 'inc':
+                                    logging.info(
+                                        "Increasing students_opted count by 1 for subject : {}".format(subject_details))
+                                    subject = subject_details[0]
+                                    logging.info("Starting db transaction for method update_subject")
+                                    subject.students_opted += 1
+                                    subject.save()
+                                    logging.info(
+                                        "Exiting db transaction for method update_subject . Data : {}".format(subject))
+                                elif add_student == 'dec':
+                                    logging.info(
+                                        "Increasing students_opted count by 1 for subject : {}".format(subject_details))
+                                    subject = subject_details[0]
+                                    logging.info("Starting db transaction for method update_subject")
+                                    if subject.students_opted > 0:
+                                        subject.students_opted -= 1
+                                        subject.save()
+                                    else:
+                                        logging.error("Not decreasing students_opted because students_opted is 0")
+                                    logging.info(
+                                        "Exiting db transaction for method update_subject . Data : {}".format(
+                                            subject))
+                                    logging.info(
+                                        "Exiting db transaction for method update_subject . Data : {}".format(subject))
+                                else:
+                                    logging.info("Not changing students_opted count for subject : {} . "
+                                                 "add_student value : {}".format(subject_details, add_student))
                         return Response({"status": "Success",
                                          "message": "Subject data updated successfully",
                                          "data": serialized_data.data},
@@ -221,6 +290,8 @@ def update_subject(request):
 
                                 status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+
+
     except Exception as e:
         logging.error("Some error occurred in method : update_subject. Exception : {} ".format(e))
         return Response({"status": "Failure",
@@ -230,6 +301,7 @@ def update_subject(request):
 
 
 @api_view(['DELETE'])
+@transaction.atomic
 def delete_subject(request):
     try:
         logging.info("Entering method delete_subject")
