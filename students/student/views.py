@@ -1,5 +1,6 @@
 import random
 
+from django.db import transaction
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -18,6 +19,7 @@ def server_health(request):
 
 
 @api_view(['POST'])
+@transaction.atomic
 def add_student(request):
     try:
         logging.info("Entering method add_student with request data : {}".format(request.data))
@@ -47,6 +49,7 @@ def add_student(request):
 
 
 @api_view(['GET'])
+@transaction.atomic
 def get_student(request):
     try:
         logging.info("Entering method get_student")
@@ -104,6 +107,7 @@ def get_student(request):
 
 
 @api_view(['PUT'])
+@transaction.atomic
 def update_student(request):
     try:
         logging.info("Entering method update_student")
@@ -130,7 +134,7 @@ def update_student(request):
                                      "message": "Unable to update student because student does not exist",
                                      "data": {}},
                                     status=status.HTTP_404_NOT_FOUND)
-                serialized_data = StudentSerializer(student_data, data=request.data)
+                serialized_data = StudentSerializer(student_data, data=request.data,partial=True)
                 if serialized_data.is_valid():
                     serialized_data.save()
                     return Response({"status": "Success",
@@ -155,7 +159,7 @@ def update_student(request):
                                  "message": "Unable to update student because student does not exist",
                                  "data": {}},
                                 status=status.HTTP_404_NOT_FOUND)
-            serialized_data = StudentSerializer(student_data, data=request.data)
+            serialized_data = StudentSerializer(student_data, data=request.data,partial=True)
             if serialized_data.is_valid():
                 serialized_data.save()
                 return Response({"status": "Success",
@@ -178,6 +182,7 @@ def update_student(request):
 
 
 @api_view(['DELETE'])
+@transaction.atomic
 def delete_student(request):
     try:
         logging.info("Entering method delete_student")
@@ -241,6 +246,7 @@ def delete_student(request):
 
 
 @api_view(['POST'])
+@transaction.atomic
 def add_student_to_subject(request):
     try:
         logging.info("Entering method add_student_to_subject with request data : {}".format(request.data))
@@ -301,32 +307,49 @@ def add_student_to_subject(request):
         subject_details = subject_details.json().get('data')
         subject_id = subject_details.get('id')
         logging.info("Subject id : {}".format(subject_id))
+        with transaction.atomic():
+            ## Add the student subject data to table Student_Subjects
+            serialized_data = StudentSubjectsSerializer(data={
+                'student': student,
+                'subject': subject_id
+            })
+            if serialized_data.is_valid():
+                logging.info(
+                    "Entering db for method add_student_to_subject with student : {} and subject : {}".format(student,
+                                                                                                              subject_id))
+                serialized_data.save()
+                logging.info(
+                    "Exiting db for method add_student_to_subject with student : {} and subject : {} . Response : {}".format(
+                        student,
+                        subject_id, serialized_data.data))
+                ## increase the opted_students count in the subject object
+                logging.info(
+                    "Entering Subject service for subject name : {} and subject id : {}".format(subject_name, subject_id))
+                subject_details = StudentManager.update_subject(subject_name=subject_name, subject_id=subject_id,
+                                                                add_student='inc',data={})[0]
+                logging.info(
+                    "Exiting Subject service for subject name : {} and subject id : {} . Response subject details : {}".format(
+                        subject_name, subject_id, subject_details))
 
-        ## Add the student subject data to table Student_Subjects
-        serialized_data = StudentSubjectsSerializer(data={
-            'student': student,
-            'subject': subject_id
-        })
-        if serialized_data.is_valid():
-            logging.info(
-                "Entering db for method add_student_to_subject with student : {} and subject : {}".format(student,
-                                                                                                          subject_id))
-            serialized_data.save()
+                if subject_details.status_code != status.HTTP_200_OK:
+                    transaction.rollback()
+                    logging.error("Unable to add student to subject in Subject Service . Response : {}".format(subject_details))
 
-            logging.info(
-                "Exiting db for method add_student_to_subject with student : {} and subject : {} . Response : {}".format(
-                    student,
-                    subject_id, serialized_data.data))
-            return Response({"status": "Success",
-                             "message": "Student and subject data added successfully",
-                             "data": serialized_data.data},
-                            status=status.HTTP_201_CREATED)
-        else:
-            logging.error("Serializer errors : {}".format(serialized_data.errors))
-            return Response({"status": "Failure",
-                             "message": "Serializer Errors",
-                             "data": "{}".format(serialized_data.errors)},
-                            status=status.HTTP_400_BAD_REQUEST)
+                    return Response({"status": "Failure",
+                                     "message": "Unable to add student and subject data",
+                                     "data": {}},
+                                    status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                else:
+                    return Response({"status": "Success",
+                                     "message": "Added student and subject data successfully",
+                                     "data": serialized_data.data},
+                                    status=status.HTTP_201_CREATED)
+            else:
+                logging.error("Serializer errors : {}".format(serialized_data.errors))
+                return Response({"status": "Failure",
+                                 "message": "Serializer Errors",
+                                 "data": "{}".format(serialized_data.errors)},
+                                status=status.HTTP_400_BAD_REQUEST)
 
 
 
@@ -340,6 +363,7 @@ def add_student_to_subject(request):
 
 
 @api_view(['DELETE'])
+@transaction.atomic
 def remove_subject_from_student(request):
     try:
         logging.info("Entering method remove_subject_from_student with request data : {}".format(request.data))
@@ -407,15 +431,36 @@ def remove_subject_from_student(request):
             logging.info(
                 "Entering db for method remove_subject_from_student with id : {} and email : {}".format(student_id,
                                                                                                         student_email))
-            student_subject_data = Student_Subjects.objects.get(student=student, subject=subject_id)
-            student_subject_data.delete()
-            logging.info(
-                "Exiting db for method remove_subject_from_student with id : {} and email : {}".format(student_id,
-                                                                                                       student_email))
-            return Response({"status": "Success",
-                             "message": "Student un enrolled from subject successfully",
-                             "data": {}},
-                            status=status.HTTP_200_OK)
+            with transaction.atomic():
+                student_subject_data = Student_Subjects.objects.get(student=student, subject=subject_id)
+                student_subject_data.delete()
+                logging.info(
+                    "Exiting db for method remove_subject_from_student with id : {} and email : {}".format(student_id,
+                                                                                                           student_email))
+
+                logging.info(
+                    "Entering Subject service for subject name : {} and subject id : {}".format(subject_name,
+                                                                                                subject_id))
+                subject_details = StudentManager.update_subject(subject_name=subject_name, subject_id=subject_id,
+                                                                add_student='dec', data={})[0]
+                logging.info(
+                    "Exiting Subject service for subject name : {} and subject id : {} . Response subject details : {}".format(
+                        subject_name, subject_id, subject_details))
+
+                if subject_details.status_code == status.HTTP_200_OK:
+                    return Response({"status": "Success",
+                                     "message": "Student un enrolled from subject successfully",
+                                     "data": {}},
+                                    status=status.HTTP_200_OK)
+                else:
+                    logging.error(
+                        "Unable to remove student from subject in Subject Service . Response : {}".format(
+                            subject_details))
+                    transaction.rollback()
+                    return Response({"status": "Failure",
+                                     "message": "Unable to remove student from subject",
+                                     "data": {}},
+                                    status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         except ObjectDoesNotExist:
             return Response({"status": "Failure",
                              "message": "Unable to delete student's subject because student is not enrolled to this subject",
@@ -434,6 +479,7 @@ def remove_subject_from_student(request):
 
 
 @api_view(['GET'])
+@transaction.atomic
 def get_subject_for_student(request):
     try:
         logging.info("Entering method get_subject_for_student with request params : {}".format(request.GET))

@@ -1,4 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
+from django.db import transaction
 
 from subjects.logging import logging
 from .models import Subject
@@ -6,6 +7,7 @@ from .models import Subject
 class SubjectManager:
 
     @staticmethod
+    @transaction.atomic
     def get_subject_by_id(id):
         try:
             logging.info("Entering method get_subject_by_id for id : {}".format(id))
@@ -24,6 +26,7 @@ class SubjectManager:
             raise Exception(e)
 
     @staticmethod
+    @transaction.atomic
     def get_subject_by_name(name):
         try:
             logging.info("Entering method get_subject_by_name for id : {}".format(name))
@@ -42,6 +45,7 @@ class SubjectManager:
             raise Exception(e)
 
     @staticmethod
+    @transaction.atomic
     def get_all_subjects():
         try:
             logging.info("Entering method get_all_subjects")
@@ -53,4 +57,5 @@ class SubjectManager:
         except Exception as e:
             logging.error("Some error occurred in method : get_all_subjects. Exception : {} ".format(e))
             raise Exception(e)
+
 
